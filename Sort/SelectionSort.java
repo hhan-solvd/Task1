@@ -15,7 +15,7 @@ class Sort {
 
         for (int comparedIndex = 0; comparedIndex < len - 1; comparedIndex++) {
             int lowestIndex = comparedIndex;
-            // Iterate through unsorted array and find the lowest number
+            // Iterate through unsorted array, find the lowest number and set the new lowestIndex
             for (int j = comparedIndex + 1; j < len; j++) {
                 if (arr[j] < arr[lowestIndex]) {
                     lowestIndex = j;
