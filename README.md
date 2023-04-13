@@ -1,11 +1,12 @@
-# Sorting Algorithm Implementations
+# Task 1
+- Sorting Algorithm Implementations
   - Insertion Sort
 
   - Bubble Sort
 
   - Selection Sort
   
-# System Out Apps
+- System Out Apps
   - Greet Users
 
   - Add Two Numbers
