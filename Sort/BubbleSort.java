@@ -5,9 +5,9 @@
 
 import java.util.Scanner;
 
-class BubbleSort {
+public class BubbleSort {
     /* Implement bubble sort algorithm to sort an array in ascending order. */
-    static void bubbleSort(int[] arr) {
+    public static void bubbleSort(int[] arr) {
         int len = arr.length;
         if (len <= 1) {
             return;
@@ -25,14 +25,14 @@ class BubbleSort {
     }
 
     /* Print the elements in an array. */
-    static void printArray(int[] arr) {
+    public static void printArray(int[] arr) {
         for (int number : arr) {
             System.out.print(number + " ");
         }
     }
 
     /* Take user input and create an array for the input. */
-    static int[] createArr() {
+    public static int[] createArr() {
         Scanner input = new Scanner(System.in);
         System.out.println("How many numbers in the array: ");
         int num = input.nextInt();
