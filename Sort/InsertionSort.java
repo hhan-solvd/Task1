@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Sort {
+public class InsertionSort {
     /* Implement insertion sort algorithm to sort an array in ascending order. */
     public static void insertionSort(int[] arr) {
         int len = arr.length;
