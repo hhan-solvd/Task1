@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Sort {
+public class SelectionSort {
     /* Implement selection sort algorithm to sort an array in ascending order. */
     public static void selectionSort(int[] arr) {
         int len = arr.length;
